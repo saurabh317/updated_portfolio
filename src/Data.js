@@ -1,0 +1,197 @@
+import {   FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+// import { BsMedium } from "react-icons/bs";
+import c from './assets/c.png';
+import cpp from './assets/cpp.png';
+import java from './assets/java.png';
+import html from './assets/html.png';
+import css from './assets/css.png';
+import js from './assets/javascript.png';
+import reacticon from './assets/react.png';
+import redux from './assets/redux.png';
+import bootstrap from './assets/bootstrap.png'
+import talwind from './assets/talwind.png';
+import figma from './assets/figma.png';
+import MUI from './assets/MUI.svg';
+import firebase from './assets/firebase.png';
+import nodejs from './assets/nodejs.png';
+import expressJs from './assets/expressJs.png';
+import codingNinjas from './assets/codingNinjas.png';
+import optswap from './assets/optswap.png';
+import mongo from './assets/mongo.png';
+import work1 from './assets/nike-store.mp4';
+import work2 from "./assets/crypto.mp4";
+import work3 from "./assets/netflix.mp4";
+import work4 from "./assets/portfolio.mp4";
+import work5 from './assets/superhero.mp4';
+import work6 from './assets/bankist.mp4';
+
+export const navLinks = ["home", "about", "skills", "portfolio", "contact"]
+
+export const socialIcons = [
+  {
+    icon: <FaGithub />,
+    link: 'https://github.com/saurabh317'
+  },
+  {
+    icon: <FaLinkedin />,
+    link: 'https://www.linkedin.com/in/saurabhpandey317/'
+  },
+  {
+    icon: <FaInstagram />,
+    link: 'https://www.instagram.com/saurabhpandeyyy/'
+  }
+
+  // <BsMedium />
+]
+
+export const bios = [
+  {
+    id: 1,
+    icon: <FaUser />,
+    key: "Name",
+    value: "Saurabh"
+  },
+  {
+    id: 2,
+    icon: <FaPhoneAlt />,
+    key: "Phone",
+    value: "9123486054"
+  },
+  {
+    id: 3,
+    icon: <FaPaperPlane />,
+    key: "Email",
+    value: "saurabhsp317@gmail.com"
+  }
+]
+
+export const icons = [c, cpp, java, html, css, js , reacticon, redux, talwind, bootstrap, figma, MUI, firebase, nodejs, expressJs, mongo]
+
+export const experiences = [
+  {
+    id: 1,
+    year: "Sept 2022 - Mar 2023",
+    companyIcon: codingNinjas,
+    company: "CodingNinjas",
+    link: "http://codingninjas.com",
+    position: "Software Developer",
+    desc: [
+      "Applied over 2 years of self-learning as an SDE to design user interfaces for students at CN",
+      "Collaborated with the team to create intuitive, user-friendly UI designs",
+      "Enhanced technical expertise in front-end development through real-world application.",
+      "Continuously honed skills in UI/UX design, ensuring smooth and engaging user experiences.",
+    ]
+  },
+  {
+    di: 2,
+    year: "Mar 2023 - Present",
+    companyIcon: optswap,
+    company: "OptSwap",
+    link: "http://optswap.org",
+    position: "Software Developer",
+    desc: [
+      "Built a crypto options trading Web3 app, offering an advanced derivative platform",
+      "Developed APIs, RPC, and GraphQL to streamline UI-backend data exchange.",
+      "Built a dynamic UI with React.js, JavaScript, and TypeScript, improving user experience by 20%.",
+      "Optimized front-end performance for faster, smoother user interactions.",
+    ]
+  },
+]
+
+export const finishes = [
+  {
+    id: 1,
+    number: '2+',
+    itemName: "Years Of Experience"
+  },
+  {
+    id: 2,
+    number: "4+",
+    itemName: "Years of self Learning"
+  },
+  {
+    id: 2,
+    number: "50+",
+    itemName: "Mini projects"
+  },
+  {
+    id: 3,
+    number: "5+",
+    itemName: "Major Projects"
+  },
+
+]
+
+export const workImages = [
+  {
+    id: 1,
+    img: work1,
+    name: "project 1",
+    category: "web",
+    git:"https://github.com/saurabh317/NIKE-STORE",
+    liveDemo:"https://nikestore317.netlify.app/",
+
+  },
+  {
+    id: 2,
+    img: work2,
+    name: "project 2",
+    category: "web",
+    git:"https://github.com/saurabh317/TRACy-CRYPTO-APP",
+    liveDemo:"https://crypto-hunter.netlify.app/",
+  },
+  {
+    id: 3,
+    img: work3,
+    name: "project 3",
+    category: "web",
+    git:"https://github.com/saurabh317/NETFLIX-CLONE",
+    liveDemo:"https://netflix317.netlify.app/",
+  },
+  {
+    id: 4,
+    img: work4,
+    name: "project 4",
+    category: "app",
+    git:"https://github.com/saurabh317/My-PortFolio",
+    liveDemo:"",
+  },
+  {
+    id: 5,
+    img: work5,
+    name: "project 5",
+    category: 'app',
+    git:"https://github.com/saurabh317/SUPER-HERO-JAVASCRIPT",
+    liveDemo:"https://saurabh317.github.io/SUPER-HERO-JAVASCRIPT/",
+  },
+  {
+    id: 6,
+    img: work6,
+    name: "project 6",
+    category: "design",
+    git:"https://github.com/saurabh317/BANKIST-FRONT-END-",
+    liveDemo:"https://bankist317.netlify.app/",
+  }
+]
+
+export const workNavs = [
+
+]
+
+export const contacts = [
+  {
+    id: 1,
+    icon: <FaMapMarkerAlt />,
+    infoText: "Bangalore, Karnataka"
+  },
+  {
+    id: 2,
+    icon: <FaPaperPlane />,
+    infoText: "saurabhsp317@gmail.com"
+  },
+  {
+    id: 3,
+    icon: <FaPhoneAlt />,
+    infoText: "+91-9123486054"
+  }
+]

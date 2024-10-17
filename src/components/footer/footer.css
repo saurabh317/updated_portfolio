@@ -1,0 +1,19 @@
+.footer {
+  text-align: center;
+  padding: 1rem 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+
+  .copyright {
+    p {
+      font-size: 0.85rem;
+
+      span {
+        color: #20c997;
+        font-weight: 800;
+      }
+    }
+  }
+}

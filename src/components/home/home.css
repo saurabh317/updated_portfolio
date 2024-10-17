@@ -1,0 +1,104 @@
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .profile {
+    margin-bottom: 0.8rem;
+    width: 12.5rem;
+    height: 12.5rem;
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      outline: 6px solid #21d49e7d;
+      box-shadow: 0 0 23px var(--highlight) ;
+      background-color: #21d49e39;
+      backdrop-filter: blur(2px);
+      filter: brightness(90%);
+  
+    }
+  }
+  .profile_text {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    h3 {
+      color: #fff;
+      font-size: 3rem;
+      @media screen and (max-width: 800px) {
+        font-size: 2rem;
+        text-align: center;
+      }
+      @media screen and (max-width: 500px) {
+        font-size: 1.5rem;
+        text-align: center;
+      }
+      span {
+        color: var(--highlight);
+        text-align: center;
+        right: 10%;
+      }
+    }
+    .job {
+      color: #fff;
+      opacity: 0.5;
+      font-size: 0.85rem;
+    }
+    .text {
+      margin: 1rem 0 2.4rem 0;
+      color: #fff;
+      text-align: center;
+      font-size: 5rem;
+      line-height: 1.2;
+
+      @media screen and (max-width: 800px) {
+        font-size: 3.5rem;
+        margin-top: 2rem;
+      }
+      @media screen and(max-width: 530px) {
+        font-size: 2.5rem;
+      }
+    }
+    a {
+      margin-top: 3rem;
+      text-decoration: none;
+      color: #000;
+      background: var(--highlight);
+      padding: 0.65rem 1rem;
+      border-radius: 10px;
+      font-size: 0.85rem;
+      text-transform: capitalize;
+    }
+    .skill-container div {
+      background: rgba(255, 255, 255, 0.15);
+      color: #fff;
+      padding: 0.35rem 1rem;
+      border-radius: 25px;
+      font-size: 0.85rem;
+    }
+    @media screen and (max-width: 800px) {
+      div {
+        display: none;
+      }
+    }
+  }
+}
+
+.skill-container {
+  column-gap: 1rem;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
+
+h3.theme {
+  color: #000 !important;
+}

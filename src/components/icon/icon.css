@@ -1,0 +1,28 @@
+.icons {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  left: 2rem;
+  bottom: 4rem;
+  z-index: 1000;
+}
+
+.icons a {
+  font-size: 1.8rem;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.icons a:hover {
+  transition: all 0.3s ease-in;
+  transform: scale(1.2);
+  color: #20c997;
+}
+
+@media screen and (max-width: 550px) {
+  .icons a {
+    display: none;
+  }
+}
