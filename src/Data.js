@@ -70,21 +70,7 @@ export const icons = [c, cpp, java, html, css, js , reacticon, redux, talwind, b
 export const experiences = [
   {
     id: 1,
-    year: "Sept 2022 - Mar 2023",
-    companyIcon: codingNinjas,
-    company: "CodingNinjas",
-    link: "http://codingninjas.com",
-    position: "Software Developer",
-    desc: [
-      "Applied over 2 years of self-learning as an SDE to design user interfaces for students at CN",
-      "Collaborated with the team to create intuitive, user-friendly UI designs",
-      "Enhanced technical expertise in front-end development through real-world application.",
-      "Continuously honed skills in UI/UX design, ensuring smooth and engaging user experiences.",
-    ]
-  },
-  {
-    di: 2,
-    year: "Mar 2023 - Present",
+    year: "Feb 2023 - Present",
     companyIcon: optswap,
     company: "OptSwap",
     link: "http://optswap.org",
@@ -94,6 +80,20 @@ export const experiences = [
       "Developed APIs, RPC, and GraphQL to streamline UI-backend data exchange.",
       "Built a dynamic UI with React.js, JavaScript, and TypeScript, improving user experience by 20%.",
       "Optimized front-end performance for faster, smoother user interactions.",
+    ]
+  },
+  {
+    id: 2,
+    year: "Aug 2022 - Feb 2023",
+    companyIcon: codingNinjas,
+    company: "CodingNinjas",
+    link: "http://codingninjas.com",
+    position: "Software Developer",
+    desc: [
+      "Applied over 2 years of self-learning as an SDE to design user interfaces for students at CN",
+      "Collaborated with the team to create intuitive, user-friendly UI designs",
+      "Enhanced technical expertise in front-end development through real-world application.",
+      "Continuously honed skills in UI/UX design, ensuring smooth and engaging user experiences.",
     ]
   },
 ]

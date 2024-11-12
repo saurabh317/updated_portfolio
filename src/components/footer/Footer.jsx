@@ -16,7 +16,7 @@ const Footer = () => {
       className='footer'
     >
       <div className="copyright">
-        <p>Copyright&copy;2024 All rights reserved.Made by <span>Saurabh Sagar Pandey</span></p>
+        <p>Copyright&copy;2024 All rights reserved. Made by <a href='https://www.linkedin.com/in/saurabhpandey317/'>Saurabh Sagar Pandey</a></p>
       </div>
     </motion.div>
     </section>
