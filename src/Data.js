@@ -146,7 +146,7 @@ export const workImages = [
     name: "project 3",
     category: "web",
     git:"https://github.com/saurabh317/NETFLIX-CLONE",
-    liveDemo:"https://netflix317.netlify.app/",
+    liveDemo:"https://netflex-clone11.netlify.app/",
   },
   {
     id: 4,

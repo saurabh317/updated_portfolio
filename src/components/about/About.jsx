@@ -58,7 +58,7 @@ const About = () => {
             <motion.a
               href={Resume}
               target="_blank"
-              download="myResume"
+              download="SaurabhSagar_resume"
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.3 }}>
               Download Resume
