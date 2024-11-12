@@ -1,4 +1,5 @@
 import {   FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 // import { BsMedium } from "react-icons/bs";
 import c from './assets/c.png';
 import cpp from './assets/cpp.png';
@@ -37,11 +38,13 @@ export const socialIcons = [
     link: 'https://www.linkedin.com/in/saurabhpandey317/'
   },
   {
+    icon: <FaXTwitter/>,
+    link: 'https://x.com/SaurabhSagar317'
+  },
+  {
     icon: <FaInstagram />,
     link: 'https://www.instagram.com/saurabhpandeyyy/'
   }
-
-  // <BsMedium />
 ]
 
 export const bios = [
