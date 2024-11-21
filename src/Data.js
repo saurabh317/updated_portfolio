@@ -87,7 +87,7 @@ export const experiences = [
   },
   {
     id: 2,
-    year: "Aug 2022 - Feb 2023",
+    year: "Mar 2022 - Feb 2023",
     companyIcon: codingNinjas,
     company: "CodingNinjas",
     link: "http://codingninjas.com",
@@ -104,7 +104,7 @@ export const experiences = [
 export const finishes = [
   {
     id: 1,
-    number: '2+',
+    number: '2.5+',
     itemName: "Years Of Experience"
   },
   {
