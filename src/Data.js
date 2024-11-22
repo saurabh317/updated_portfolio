@@ -93,7 +93,7 @@ export const experiences = [
     link: "http://codingninjas.com",
     position: "Software Developer",
     desc: [
-      "Applied over 2 years of self-learning as an SDE to design user interfaces for students at CN",
+      "Applied over 3 years of self-learning as an SDE to design user interfaces for students at CN",
       "Collaborated with the team to create intuitive, user-friendly UI designs",
       "Enhanced technical expertise in front-end development through real-world application.",
       "Continuously honed skills in UI/UX design, ensuring smooth and engaging user experiences.",
